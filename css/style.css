@@ -30,7 +30,7 @@ label {
 }
 input[type="text"],
 input[type="email"] {
-    width: calc(100% - 20px); /* Adjusted for padding */
+    width: calc(100% - 20px); 
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
