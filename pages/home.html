@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="../css/style.css">
 <title>Survey Page</title>
+
 </head>
 <body>
 
@@ -15,9 +16,8 @@
             <a href="../pages/home.html"><button>Fill out survey</button></a>
             <a href="../php/view_survey_results.php"><button>View survey result</button></a>
         </div>
-        
     </div>
-    <form id="surveyForm" method="post" action="../php/process_form.php">
+    <form id="surveyForm" method="post" action="../php/process_form.php" onsubmit="return validateForm()">
         <label>Personal details</label><br>
         <label for="fullName">Full Name:</label>
         <input type="text" id="fullName" name="fullName" required><br>
@@ -102,6 +102,6 @@
         <button type="submit">Submit</button>
     </form>
 </div>
-
+<script src="../js/validations.js"></script>
 </body>
 </html>
