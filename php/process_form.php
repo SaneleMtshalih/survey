@@ -79,7 +79,7 @@ $watchTv = mapRatingToInt($_POST['watch_tv']);
           confirmButtonColor: '#3085d6',
                 
         }).then(function(){
-              window.location.href='http://localhost/_survey/pages/home.html';
+              window.location.href='http://localhost/survey/pages/home.html';
 
         });
       </script>";
