@@ -48,8 +48,7 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* This centers the button horizontally */
-}
+    margin: 0 auto; 
 
 button[type="submit"]:hover {
     background-color: #1e45c4;
@@ -69,7 +68,7 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
-/* Align options horizontally */
+
 #surveyForm div {
     display: inline-block;
     margin-right: 10px;
@@ -77,20 +76,20 @@ th {
 
 /*  */
 #surveyResultsContainer h2 {
-    text-align: center; /* Center-align the heading */
+    text-align: center; 
 }
 #surveyResultsContainer {
     margin: 0 auto;
-    max-width: 600px; /* Adjust as per your preference */
-    padding: 20px;
-    /* border: 1px solid #ccc; */
+    max-width: 600px; 
+    padding: 20px; 
     border-radius: 5px;
-    /* background-color: #f9f9f9; */
+   
 }
 .result {
     display: flex;
     justify-content: space-between;
 }
 .result label {
-    width: 3000px; /* Adjust as per your preference */
+    width: 3000px; 
+}
 }
