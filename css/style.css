@@ -49,6 +49,7 @@ button[type="submit"] {
     cursor: pointer;
     display: block;
     margin: 0 auto; 
+}
 
 button[type="submit"]:hover {
     background-color: #1e45c4;
@@ -78,18 +79,18 @@ th {
 #surveyResultsContainer h2 {
     text-align: center; 
 }
-#surveyResultsContainer {
-    margin: 0 auto;
-    max-width: 600px; 
-    padding: 20px; 
-    border-radius: 5px;
-   
-}
-.result {
-    display: flex;
-    justify-content: space-between;
-}
-.result label {
-    width: 3000px; 
-}
-}
+    #surveyResultsContainer {
+        margin: 0 auto;
+        max-width: 600px; 
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        
+    }
+    .result {
+        display: flex;
+        justify-content: space-between;
+    }
+    .result label {
+        width: 300px; 
+    }
