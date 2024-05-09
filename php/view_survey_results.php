@@ -112,18 +112,31 @@
 
             // Output survey results
             echo "<h2>Survey Results</h2>";
+            echo "<br>";
             echo "Total number of surveys: $total_surveys <br>";
+            echo "<br>";
             echo "Average age: $average_age <br>";
+            echo "<br>";
             echo "Oldest person who participated in survey: $oldest_age years <br>";
+            echo "<br>";
             echo "Youngest person who participated in survey: $youngest_age years <br>";
+            echo "<br>";
+            echo "<br>";
             echo "Percentage of people who like Pizza: $pizza_percentage% <br>";
+            echo "<br>";
             echo "Percentage of people who like Pasta: $pasta_percentage% <br>";
+            echo "<br>";
             echo "Percentage of people who like Pap and Wors: $papa_wors_percentage% <br>";
+            echo "<br>";
+            echo "<br>";
             echo "Average eat out rating: $average_eat_out_rating <br>";
+            echo "<br>";
             echo "People who like to watch movies: $average_movies_rating <br>";
+            echo "<br>";
             echo "People who like to listen to radio: $average_radio_rating <br>";
-            echo "People who like to eat out: $average_eat_out_rating <br>";
-            echo "People who like to watch TV: $average_watch_tv_rating <br>";
+            echo "<br>";
+            echo "People who like to eat out: $average_eat_out_rating <br>"; echo "<br>";
+            echo "People who like to watch TV: $average_watch_tv_rating <br>"; echo "<br>";
         } else {
             // If no surveys available
             echo "No Surveys Available.";

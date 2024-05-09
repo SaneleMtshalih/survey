@@ -76,3 +76,21 @@ th {
 }
 
 /*  */
+#surveyResultsContainer h2 {
+    text-align: center; /* Center-align the heading */
+}
+#surveyResultsContainer {
+    margin: 0 auto;
+    max-width: 600px; /* Adjust as per your preference */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    /* background-color: #f9f9f9; */
+}
+.result {
+    display: flex;
+    justify-content: space-between;
+}
+.result label {
+    width: 3000px; /* Adjust as per your preference */
+}
